@@ -1,0 +1,31 @@
+{
+  "name": "mypluralize",
+  "version": "1.0.0",
+  "description": "Sample Package for NPM",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SujayParkhe/mypluralize.git"
+  },
+  "keywords": [],
+  "author": "Sujay Parkhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SujayParkhe/mypluralize/issues"
+  },
+  "homepage": "https://github.com/SujayParkhe/mypluralize#readme",
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
